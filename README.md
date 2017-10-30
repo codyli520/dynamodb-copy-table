@@ -14,4 +14,5 @@ TODO:
 - [x] test with table contain medium amount of data
 - [ ] test with table contain large amount of data
 - [x] add script to count table item count rather than wait 6 hours for AWS to update
+- [x] add spinning wheel while waiting
 
