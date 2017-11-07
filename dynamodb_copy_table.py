@@ -131,7 +131,7 @@ if __name__ == "__main__":
     table_2 = sys.argv[2]
     region = os.getenv('AWS_DEFAULT_REGION', 'us-east-1')
 
-    iam_role = boto3.session.Session(profile_name='intern')
+    iam_role = boto3.session.Session(profile_name='default')
     db_client = iam_role.client('dynamodb')
 
     create_table(table_1, table_2, db_client)
